@@ -30,7 +30,7 @@ jobs:
       - name: Run RSS reader
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+          DEEPSEEK_BASE_URL: ${{ secrets.DEEPSEEK_BASE_URL }}
           ENABLE_CONTENT_FILTER: 'true'
         run: |
           python rss_reader.py --webhook "$WECOM_WEBHOOK_URL" --days 1
