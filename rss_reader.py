@@ -61,7 +61,7 @@ ENABLE_CONTENT_FILTER = os.environ.get("ENABLE_CONTENT_FILTER", "true").lower() 
 
 # DeepSeek API 配置
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY")
-DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+DEEPSEEK_BASE_URL = os.environ.get("DEEPSEEK_BASE_URL")
 DEEPSEEK_MODEL = "deepseek-chat"
 
 # GitHub Pages 配置（自动从 GITHUB_REPOSITORY 推断，也可通过环境变量覆盖）
