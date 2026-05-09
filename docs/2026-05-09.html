@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karpathy RSS 实时精选 - 2026年05月09日</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.8; }
+  .container { max-width: 860px; margin: 0 auto; padding: 30px 20px; }
+  h1 { font-size: 1.6em; margin-bottom: 6px; color: #fff; }
+  .site-desc { color: #666; font-size: 0.85em; margin-bottom: 20px; }
+  .meta { color: #888; font-size: 0.88em; margin-bottom: 30px; border-bottom: 1px solid #222; padding-bottom: 15px; }
+  .category { margin-bottom: 35px; }
+  .category h2 { font-size: 1.2em; color: #4fc3f7; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 1px solid #1a1a1a; }
+  .article { background: #111; border-radius: 12px; padding: 22px 24px; margin-bottom: 16px; border: 1px solid #1e1e1e; transition: border-color 0.2s, transform 0.1s; }
+  .article:hover { border-color: #333; transform: translateY(-1px); }
+  .article h3 { font-size: 1.08em; margin-bottom: 8px; color: #fff; line-height: 1.5; }
+  .article-meta { font-size: 0.8em; color: #666; margin-bottom: 12px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+  .article-meta .category-tag { background: #1a3a2a; color: #4ade80; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; }
+  .detail { font-size: 0.93em; color: #bbb; line-height: 1.9; margin-bottom: 14px; white-space: pre-line; }
+  .read-original { display: inline-block; font-size: 0.85em; color: #4fc3f7; text-decoration: none; padding: 6px 16px; border: 1px solid #2a3a4a; border-radius: 6px; transition: all 0.2s; }
+  .read-original:hover { background: #1a2a3a; border-color: #4fc3f7; }
+  .tags { margin-bottom: 10px; }
+  .tag { display: inline-block; background: #1a1a1a; color: #4fc3f7; font-size: 0.72em; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 4px; }
+  .footer { text-align: center; color: #444; font-size: 0.78em; margin-top: 50px; padding-top: 20px; border-top: 1px solid #1a1a1a; }
+  .footer a { color: #4fc3f7; text-decoration: none; }
+  .toc { background: #111; border-radius: 12px; padding: 20px 24px; margin-bottom: 30px; border: 1px solid #1e1e1e; }
+  .toc h3 { font-size: 0.95em; color: #888; margin-bottom: 10px; }
+  .toc ul { list-style: none; }
+  .toc li { font-size: 0.88em; padding: 4px 0; border-bottom: 1px solid #1a1a1a; }
+  .toc li:last-child { border-bottom: none; }
+  .toc a { color: #ccc; text-decoration: none; }
+  .toc a:hover { color: #4fc3f7; }
+  .toc .cat-label { color: #4fc3f7; font-size: 0.8em; margin-left: 8px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Karpathy RSS 实时精选</h1>
+<div class="site-desc">基于 Andrej Karpathy 推荐的 92 个顶级科技博客，AI 生成中文解读</div>
+<div class="meta">📅 2026年05月09日  |  共 4 篇来自 4 个博客  |  由 AI 自动生成中文解读</div>
+
+<div class="toc">
+<h3>📑 目录</h3>
+<ul>
+
+
+
+
+<li><a href="#article-1">1. WebRTC对AI语音交互的延迟问题</a><span class="cat-label">🤖 AI / 机器学习</span></li>
+
+
+<li><a href="#article-2">2. AI如何降低弱工程师的负面影响</a><span class="cat-label">🤖 AI / 机器学习</span></li>
+
+
+
+
+<li><a href="#article-3">3. 开源项目评估的误判</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+
+
+<li><a href="#article-4">4. 超线性回报：理解世界的关键</a><span class="cat-label">📈 商业 / 行业</span></li>
+
+
+</ul>
+</div>
+
+
+
+<div class="category">
+<h2>🤖 AI / 机器学习</h2>
+
+
+<div class="article" id="article-1">
+  <h3>WebRTC对AI语音交互的延迟问题</h3>
+  <div class="article-meta">
+    <span>📝 simonwillison.net</span>
+    <span>🕐 2026-05-09 01:03</span>
+    <span class="category-tag">AI</span>
+  </div>
+  <div class="tags"><span class="tag">webrtc</span><span class="tag">openai</span></div>
+  <div class="detail">文章讨论了WebRTC协议在AI语音交互场景中的延迟问题。作者Luke Curley指出，WebRTC为保持低延迟会主动丢弃音频数据包，这在视频会议场景可以接受，但对需要精准语音输入的AI交互场景（如OpenAI的语音产品）造成困扰，因为用户更愿意多等200ms换取准确输入而非实时但失真的音频。
+
+核心矛盾在于WebRTC的底层设计理念与AI语音交互需求不匹配：协议为实时通信优化会强制丢弃重传失败的音频包，而AI场景中用户愿意用更高延迟换取输入准确性。数据显示，类似Discord这样的应用尝试修改协议但受限于浏览器端的硬编码实现。
+
+这提示AI语音产品开发者需要重新评估实时性优先级：对于LLM这类响应本身有延迟的系统，可考虑在客户端增加缓存/重试机制，或推动WebRTC标准增加AI交互模式。硬件加速或边缘计算可能是解决实时性与准确性矛盾的潜在方向。</div>
+  
+  <a class="read-original" href="https://simonwillison.net/2026/May/9/luke-curley/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-2">
+  <h3>AI如何降低弱工程师的负面影响</h3>
+  <div class="article-meta">
+    <span>📝 seangoedecke.com</span>
+    <span>🕐 2026-05-09 00:00</span>
+    <span class="category-tag">AI</span>
+  </div>
+  
+  <div class="detail">这篇文章探讨了AI技术（如Claude Code）如何提升能力较弱工程师的工作表现。作者指出软件工程能力呈现严重的长尾分布，顶尖工程师产出远超平均水平，而能力较弱的工程师甚至会产生负面影响。传统解决方案是组建小而精的团队，但前沿LLM的出现改变了这一局面。
+
+核心观点是：1）强弱工程师的产出差异巨大，弱工程师常造成额外问题；2）Claude Code等LLM显著提高了弱工程师的下限，至少能保证代码在行级别可用；3）AI助手能拦截明显错误（如缓存键错误、无限循环等），但仍会遗漏需要系统理解的复杂问题。
+
+对从业者的启示：1）技术管理者应重新评估团队构成策略，AI工具可能改变"精英团队"的组建逻辑；2）工程师需要适应与AI协作的工作模式，既要利用其纠错能力，也要保持对系统级问题的判断力；3）企业培训可重点提升工程师使用AI工具的能力，最大化团队整体效率。</div>
+  
+  <a class="read-original" href="https://seangoedecke.com/ai-makes-weak-engineers-less-harmful/" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+</div>
+
+<div class="category">
+<h2>💻 科技 / 技术</h2>
+
+
+<div class="article" id="article-3">
+  <h3>开源项目评估的误判</h3>
+  <div class="article-meta">
+    <span>📝 nesbitt.io · Andrew Nesbitt (andrew@ecosyste.ms)</span>
+    <span>🕐 2026-05-09 10:00</span>
+    <span class="category-tag">科技</span>
+  </div>
+  <div class="tags"><span class="tag">open-source</span><span class="tag">security</span><span class="tag">metrics</span></div>
+  <div class="detail">这篇文章探讨了当前开源项目评估体系中存在的系统性缺陷。作者指出，现有的开源项目关键性、风险或资金需求评估模型都基于相似的十几个指标，这些指标主要来自注册表API和GitHub REST端点获取的表面数据，却忽略了大量未被统计的重要维度。
+
+核心问题在于评估模型错误地将"数据缺失"等同于"数值为零"。比如curl实际安装量达200亿次但被统计为1万次下载，Go模块和C库的真实使用量因分发渠道多样化而无法统计，安全评估也常因缺少OpenSSF Scorecard数据而产生误判。这些盲区导致像xz-utils这样的关键基础设施在评估中排名靠后。
+
+对开源维护者和投资者的启示在于：需要建立更立体的评估体系，重视非GitHub生态（如邮件列表/Bugzilla）、企业内部分发渠道（如apt/dnf）、商业赞助等隐形维度。同时要警惕"可测量偏见"——不应将易于获取的数据等同于真实价值，这对基础设施类项目的资助决策尤为重要。</div>
+  
+  <a class="read-original" href="https://nesbitt.io/2026/05/09/the-mismeasure-of-open-source.html" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+</div>
+
+<div class="category">
+<h2>📈 商业 / 行业</h2>
+
+
+<div class="article" id="article-4">
+  <h3>超线性回报：理解世界的关键</h3>
+  <div class="article-meta">
+    <span>📝 paulgraham.com</span>
+    <span>🕐 近期</span>
+    <span class="category-tag">商业</span>
+  </div>
+  
+  <div class="detail">这篇文章探讨了"超线性回报"这一重要概念，指出世界并非如教育系统常说的"付出多少收获多少"（线性回报），而是存在赢家通吃的马太效应。
+
+核心观点包括：1）超线性回报是客观规律而非资本主义缺陷，存在于商业、声誉、军事等多个领域；2）其成因可归为指数增长（如细菌培养/初创公司）和临界阈值（如产品质量达到市场接受标准）两种模式；3）YC等孵化器通过指导创始人专注增长来把握这种非线性机遇。
+
+对创业者的启示：1）必须放弃线性思维，在关键指标（如增长率）上追求指数级突破；2）要识别所在领域的"临界点"（如PMF），将资源集中于突破阈值；3）可借鉴YC方法论，通过衡量增长速率来验证是否触发了超线性回报机制。</div>
+  
+  <a class="read-original" href="http://www.paulgraham.com/superlinear.html" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+</div>
+
+
+<div class="footer">
+  由 <a href="https://github.com/" target="_blank">Karpathy RSS Daily Digest</a> 自动生成<br>
+  数据来源: Andrej Karpathy 推荐的 92 个顶级科技博客
+</div>
+</div>
+</body>
+</html>
