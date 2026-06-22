@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karpathy RSS 实时精选 - 2026年06月22日</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.8; }
+  .container { max-width: 860px; margin: 0 auto; padding: 30px 20px; }
+  h1 { font-size: 1.6em; margin-bottom: 6px; color: #fff; }
+  .site-desc { color: #666; font-size: 0.85em; margin-bottom: 20px; }
+  .meta { color: #888; font-size: 0.88em; margin-bottom: 30px; border-bottom: 1px solid #222; padding-bottom: 15px; }
+  .category { margin-bottom: 35px; }
+  .category h2 { font-size: 1.2em; color: #4fc3f7; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 1px solid #1a1a1a; }
+  .article { background: #111; border-radius: 12px; padding: 22px 24px; margin-bottom: 16px; border: 1px solid #1e1e1e; transition: border-color 0.2s, transform 0.1s; }
+  .article:hover { border-color: #333; transform: translateY(-1px); }
+  .article h3 { font-size: 1.08em; margin-bottom: 8px; color: #fff; line-height: 1.5; }
+  .article-meta { font-size: 0.8em; color: #666; margin-bottom: 12px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+  .article-meta .category-tag { background: #1a3a2a; color: #4ade80; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; }
+  .detail { font-size: 0.93em; color: #bbb; line-height: 1.9; margin-bottom: 14px; white-space: pre-line; }
+  .read-original { display: inline-block; font-size: 0.85em; color: #4fc3f7; text-decoration: none; padding: 6px 16px; border: 1px solid #2a3a4a; border-radius: 6px; transition: all 0.2s; }
+  .read-original:hover { background: #1a2a3a; border-color: #4fc3f7; }
+  .tags { margin-bottom: 10px; }
+  .tag { display: inline-block; background: #1a1a1a; color: #4fc3f7; font-size: 0.72em; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 4px; }
+  .footer { text-align: center; color: #444; font-size: 0.78em; margin-top: 50px; padding-top: 20px; border-top: 1px solid #1a1a1a; }
+  .footer a { color: #4fc3f7; text-decoration: none; }
+  .toc { background: #111; border-radius: 12px; padding: 20px 24px; margin-bottom: 30px; border: 1px solid #1e1e1e; }
+  .toc h3 { font-size: 0.95em; color: #888; margin-bottom: 10px; }
+  .toc ul { list-style: none; }
+  .toc li { font-size: 0.88em; padding: 4px 0; border-bottom: 1px solid #1a1a1a; }
+  .toc li:last-child { border-bottom: none; }
+  .toc a { color: #ccc; text-decoration: none; }
+  .toc a:hover { color: #4fc3f7; }
+  .toc .cat-label { color: #4fc3f7; font-size: 0.8em; margin-left: 8px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Karpathy RSS 实时精选</h1>
+<div class="site-desc">基于 Andrej Karpathy 推荐的 92 个顶级科技博客，AI 生成中文解读</div>
+<div class="meta">📅 2026年06月22日  |  共 6 篇来自 3 个博客  |  由 AI 自动生成中文解读</div>
+
+<div class="toc">
+<h3>📑 目录</h3>
+<ul>
+
+
+
+
+<li><a href="#article-1">1. sqlite-utils 4.0rc1新增迁移和嵌套事务</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+<li><a href="#article-2">2. sqlite-utils 4.0rc1发布</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+<li><a href="#article-3">3. macOS Golden Gate Beta 1图标设计对比</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+<li><a href="#article-4">4. Cloudflare推出临时账户功能</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+<li><a href="#article-5">5. Mux开发者视频API</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+
+
+<li><a href="#article-6">6. 超线性回报：商业成功的隐藏法则</a><span class="cat-label">📈 商业 / 行业</span></li>
+
+
+</ul>
+</div>
+
+
+
+<div class="category">
+<h2>💻 科技 / 技术</h2>
+
+
+<div class="article" id="article-1">
+  <h3>sqlite-utils 4.0rc1新增迁移和嵌套事务</h3>
+  <div class="article-meta">
+    <span>📝 simonwillison.net</span>
+    <span>🕐 2026-06-21 23:35</span>
+    <span class="category-tag">科技</span>
+  </div>
+  <div class="tags"><span class="tag">migrations</span><span class="tag">projects</span><span class="tag">sqlite</span><span class="tag">sqlite-utils</span><span class="tag">annotated-release-notes</span></div>
+  <div class="detail">文章介绍了sqlite-utils 4.0rc1版本新增的数据库迁移和嵌套事务两大功能。该Python库在sqlite3基础上提供高级操作，新版本通过集成sqlite-migrate包实现迁移功能，开发者可以通过装饰器定义迁移脚本，支持Python和CLI两种执行方式。嵌套事务则通过Python上下文管理器实现原子操作。
+
+核心更新包括：1）迁移系统采用声明式语法定义表结构变更；2）支持通过装饰器注册迁移函数；3）提供apply()方法和CLI命令执行迁移；4）嵌套事务通过with语句实现操作回滚。值得注意的是，迁移系统设计为轻量级，暂不支持回滚功能。
+
+对开发者的启示在于：1）可以更优雅地管理SQLite数据库Schema变更；2）嵌套事务能提升复杂操作的可靠性；3）该工具适合需要轻量级数据库解决方案的场景。建议数据密集型应用开发者评估该工具在CI/CD流程中的应用可能，特别是需要频繁变更Schema的敏捷开发场景。</div>
+  
+  <a class="read-original" href="https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-2">
+  <h3>sqlite-utils 4.0rc1发布</h3>
+  <div class="article-meta">
+    <span>📝 simonwillison.net</span>
+    <span>🕐 2026-06-21 23:30</span>
+    <span class="category-tag">科技</span>
+  </div>
+  <div class="tags"><span class="tag">sqlite-utils</span></div>
+  <div class="detail">文章介绍了Python工具sqlite-utils发布4.0rc1版本，新增了对数据库migrations和nested transactions的支持。该工具主要用于操作SQLite数据库，既可作为CLI工具也可作为库使用。作者Simon Willison在个人博客发布了这一消息，并附带了相关功能说明。
+
+核心更新是sqlite-utils 4.0rc1增加了数据库迁移和嵌套事务功能，这两个特性对数据库管理尤为重要。migrations帮助开发者更好地管理数据库结构变更，而nested transactions则提供了更灵活的数据库事务控制机制。
+
+对开发者而言，这个版本升级意味着可以更安全高效地进行SQLite数据库操作。特别是需要频繁修改数据库结构的项目，migrations功能将大幅提升开发体验。同时嵌套事务的支持让复杂业务逻辑的数据库操作更加可靠，值得数据库相关开发者关注和试用。</div>
+  
+  <a class="read-original" href="https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-3">
+  <h3>macOS Golden Gate Beta 1图标设计对比</h3>
+  <div class="article-meta">
+    <span>📝 daringfireball.net · John Gruber</span>
+    <span>🕐 2026-06-21 22:39</span>
+    <span class="category-tag">科技</span>
+  </div>
+  
+  <div class="detail">这篇文章详细对比了macOS Golden Gate Beta 1与上一代Tahoe系统的图标设计变化。作者BasicAppleGuy重点分析了新版图标的视觉调整，包括更鲜明的色彩、Liquid Glass折射效果的改变，以及部分图标（如Finder）的造型改进。文章通过大量并排对比图展示了App Store、Journal等系统应用的图标演进。
+
+核心变化在于：1）Golden Gate采用了更强烈的色彩方案；2）Liquid Glass折射效果明显扁平化；3）Finder等关键图标回归经典圆润造型；4）新版图标边缘处理更锐利。特别值得注意的是Journal等应用的折射效果调整可能是系统级设计语言的转变。
+
+对UI/UX设计师的启示：1）macOS设计语言正在向更高对比度演进；2）系统图标需要平衡现代感与品牌传承（如Finder的造型回调）；3）折射效果等视觉细节在Beta阶段仍可能调整，需保持持续关注；4）整套设计体系的色彩管理系统值得深入研究。</div>
+  
+  <a class="read-original" href="https://basicappleguy.com/basicappleblog/macos-golden-gate-icon-comparison" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-4">
+  <h3>Cloudflare推出临时账户功能</h3>
+  <div class="article-meta">
+    <span>📝 simonwillison.net</span>
+    <span>🕐 2026-06-21 22:01</span>
+    <span class="category-tag">科技</span>
+  </div>
+  <div class="tags"><span class="tag">cloudflare</span></div>
+  <div class="detail">文章介绍了Cloudflare推出的临时账户功能，允许用户无需注册账号即可通过命令行工具wrangler部署临时项目，有效期为60分钟。作者Simon Willison使用GPT-5.5 xhigh构建了一个测试应用，验证了该功能的可用性。虽然官方宣传针对AI代理设计，但实际对所有开发者都适用。
+
+核心在于Cloudflare通过--temporary参数实现了零门槛的临时部署能力，部署后提供项目认领页面延长使用期限。这种临时资源分配机制特别适合快速测试场景，60分钟的默认时长足够验证大多数原型项目。
+
+对开发者而言，该功能显著降低了Cloudflare Workers的试用门槛，使得快速验证想法成为可能。技术团队可以将其作为CI/CD流程中的临时测试环境，教育领域也能用于编程教学演示。这种"先试用后注册"的模式可能会成为云服务的新趋势。</div>
+  
+  <a class="read-original" href="https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-5">
+  <h3>Mux开发者视频API</h3>
+  <div class="article-meta">
+    <span>📝 daringfireball.net · John Gruber</span>
+    <span>🕐 2026-06-21 21:35</span>
+    <span class="category-tag">科技</span>
+  </div>
+  
+  <div class="detail">这篇文章介绍了Mux公司推出的开发者视频API服务。Mux提供了一系列视频处理功能，包括流媒体传输、内容审核、搜索、分析和格式转换等，旨在帮助开发者快速集成视频功能。文章展示了通过React组件、Web组件和iframe嵌入视频的代码示例，以及自动生成字幕、缩略图等高级功能。
+
+核心亮点在于Mux提供了完整的视频处理解决方案，从基础播放到高级AI功能一应俱全。其API设计简洁，如创建带自动字幕的资源只需简单几行代码（如使用generated_subtitles参数）。特别值得注意的是其开发者友好特性，包括清晰的文档、多种集成方式和丰富的元数据支持。
+
+对视频领域开发者而言，Mux这类云服务能大幅降低开发门槛，将原本需要数月开发的视频功能缩短至分钟级。建议开发者重点关注其自动字幕生成、视频质量分级（video_quality参数）等AI驱动功能，这些正是当前视频应用的差异化竞争点。同时其多平台支持（React/Web组件）也值得借鉴，能有效提升开发效率。</div>
+  
+  <a class="read-original" href="https://www.mux.com/?utm_campaign=fireball&utm_source=DF" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+</div>
+
+<div class="category">
+<h2>📈 商业 / 行业</h2>
+
+
+<div class="article" id="article-6">
+  <h3>超线性回报：商业成功的隐藏法则</h3>
+  <div class="article-meta">
+    <span>📝 paulgraham.com</span>
+    <span>🕐 近期</span>
+    <span class="category-tag">商业</span>
+  </div>
+  
+  <div class="detail">文章探讨了商业领域普遍存在的"超线性回报"现象，指出优秀表现带来的回报远超线性增长。作者通过对比学校教育中的线性回报观念，揭示了商业竞争中赢家通吃的本质规律，并将这种现象归因于指数级增长和临界阈值两大核心机制。
+
+核心观点指出：1）商业回报遵循"表现越好回报越指数增长"的法则；2）这种现象不仅存在于商业领域，也体现在声誉、权力、军事等社会各方面；3）创业公司能否实现指数级增长直接决定其成败命运。数据显示，成功实现高增长率的公司会获得不成比例的巨额回报。
+
+对创业者的启示：1）必须突破"投入产出成正比"的传统思维；2）要将寻找指数级增长机会作为战略重点；3）在早期就要设计具备网络效应或复合增长潜力的商业模式。正如YC所倡导的，创始人应当把"增长率"而非绝对数值作为核心指标，这正是把握超线性回报规律的关键实践。</div>
+  
+  <a class="read-original" href="http://www.paulgraham.com/superlinear.html" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+</div>
+
+
+<div class="footer">
+  由 <a href="https://github.com/" target="_blank">Karpathy RSS Daily Digest</a> 自动生成<br>
+  数据来源: Andrej Karpathy 推荐的 92 个顶级科技博客
+</div>
+</div>
+</body>
+</html>
