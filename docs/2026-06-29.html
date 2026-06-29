@@ -39,7 +39,7 @@
 <div class="container">
 <h1>Karpathy RSS 实时精选</h1>
 <div class="site-desc">基于 Andrej Karpathy 推荐的 92 个顶级科技博客，AI 生成中文解读</div>
-<div class="meta">📅 2026年06月29日  |  共 7 篇来自 6 个博客  |  由 AI 自动生成中文解读</div>
+<div class="meta">📅 2026年06月29日  |  共 8 篇来自 7 个博客  |  由 AI 自动生成中文解读</div>
 
 <div class="toc">
 <h3>📑 目录</h3>
@@ -48,29 +48,32 @@
 
 
 
-<li><a href="#article-1">1. Jon Udell谈AI代理开发</a><span class="cat-label">🤖 AI / 机器学习</span></li>
+<li><a href="#article-1">1. Gemini为何优于被Google劣化的搜索引擎</a><span class="cat-label">🤖 AI / 机器学习</span></li>
+
+
+<li><a href="#article-2">2. Ornith-1.0：自支撑LLM助力智能编程</a><span class="cat-label">🤖 AI / 机器学习</span></li>
 
 
 
 
-<li><a href="#article-2">2. 大麻俱乐部应用泄露百万用户护照信息</a><span class="cat-label">💻 科技 / 技术</span></li>
+<li><a href="#article-3">3. 使用AppleScript统计Safari标签页数量</a><span class="cat-label">💻 科技 / 技术</span></li>
 
 
-<li><a href="#article-3">3. 航天飞机I/O处理器电路板解析</a><span class="cat-label">💻 科技 / 技术</span></li>
+<li><a href="#article-4">4. Grok与文档：谁更可信？</a><span class="cat-label">💻 科技 / 技术</span></li>
 
 
-<li><a href="#article-4">4. Lemote Yeeloong笔记本与OpenBSD的探索</a><span class="cat-label">💻 科技 / 技术</span></li>
+<li><a href="#article-5">5. AltaVista搜索引擎的兴衰史</a><span class="cat-label">💻 科技 / 技术</span></li>
 
 
-<li><a href="#article-5">5. Bash大括号扩展解析</a><span class="cat-label">💻 科技 / 技术</span></li>
+<li><a href="#article-6">6. 标准库解耦与安全漏洞管理</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+<li><a href="#article-7">7. WorkOS推出Auth.md协议</a><span class="cat-label">💻 科技 / 技术</span></li>
 
 
 
 
-<li><a href="#article-6">6. Hack Your Summer：暑期项目助力学生</a><span class="cat-label">📈 商业 / 行业</span></li>
-
-
-<li><a href="#article-7">7. 超线性回报：理解世界的关键</a><span class="cat-label">📈 商业 / 行业</span></li>
+<li><a href="#article-8">8. 超线性回报：商业成功的隐藏法则</a><span class="cat-label">📈 商业 / 行业</span></li>
 
 
 </ul>
@@ -83,20 +86,38 @@
 
 
 <div class="article" id="article-1">
-  <h3>Jon Udell谈AI代理开发</h3>
+  <h3>Gemini为何优于被Google劣化的搜索引擎</h3>
   <div class="article-meta">
-    <span>📝 simonwillison.net</span>
-    <span>🕐 2026-06-28 21:57</span>
+    <span>📝 pluralistic.net · Cory Doctorow</span>
+    <span>🕐 2026-06-29 16:34</span>
     <span class="category-tag">AI</span>
   </div>
-  <div class="tags"><span class="tag">jon-udell</span><span class="tag">coding-agents</span><span class="tag">generative-ai</span><span class="tag">agentic-engineering</span><span class="tag">ai</span></div>
-  <div class="detail">这篇文章记录了Jon Udell关于AI代理开发的思考，他反对"human in the loop"的说法，主张应该把AI代理视为团队合作伙伴而非主导者。Udell强调开发过程不应是黑箱操作，而要让人类保持对工作流的控制权。
+  <div class="tags"><span class="tag">Uncategorized</span><span class="tag">ai</span><span class="tag">enshittification</span><span class="tag">gisele navaro</span><span class="tag">google</span></div>
+  <div class="detail">文章指出Google搜索质量持续下降，用户已从点击蓝色链接转向依赖AI生成的搜索摘要，尽管这些摘要存在"幻觉"错误。作者通过用户反馈揭示，Google垄断地位导致其将搜索功能"劣化"(enshittified)，而新兴的Gemini协议因保持网络中立性获得认可。
 
-核心观点在于重构人机协作关系：1）将AI定位为被邀请加入团队的"agent"而非主导者 2）反对不可审查的AI生成代码 3）主张透明可解释的agentic software development开发模式。
+核心数据/观点包括：1)Google占据90%搜索市场份额却三度被判垄断；2)多数用户承认AI摘要存在错误但仍选择使用；3)传统网站访问量因用户行为改变而下降。这反映了中心化平台与去中心化协议(Gemini)的价值冲突。
 
-对开发者的启示是：1）需要建立AI代码审查机制 2）保持开发流程透明度 3）以"agent-assisted"思维设计工作流。这为如何平衡AI自动化与人类控制权提供了新思路，特别适合正在采用coding-agents的工程团队参考。</div>
+对从业者的启示：1)AI工具可靠性问题将长期存在，需建立纠错机制；2)垄断企业产品劣化会催生替代方案(如Gemini)；3)内容创作者需适应AI摘要带来的流量变革，探索新的变现路径。技术伦理与商业模式的平衡成为关键挑战。</div>
   
-  <a class="read-original" href="https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
+  <a class="read-original" href="https://pluralistic.net/2026/06/29/arsonist-firefighters/" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-2">
+  <h3>Ornith-1.0：自支撑LLM助力智能编程</h3>
+  <div class="article-meta">
+    <span>📝 simonwillison.net</span>
+    <span>🕐 2026-06-29 16:17</span>
+    <span class="category-tag">AI</span>
+  </div>
+  <div class="tags"><span class="tag">ai</span><span class="tag">generative-ai</span><span class="tag">local-llms</span><span class="tag">llms</span><span class="tag">qwen</span></div>
+  <div class="detail">文章介绍了DeepReinforce发布的开源模型Ornith-1.0，该模型基于Gemma 4和Qwen 3.5预训练，提供9B Dense到397B MoE等多种参数规模，在编程基准测试中表现优异。作者通过LM Studio测试了35B MoE版本，证实其能高效处理代码查询等代理编程任务，并展示了具体案例和性能数据（103 tokens/s的绘图速度）。
+
+核心在于Ornith-1.0采用自支撑架构（Self-Scaffolding），在保持Apache 2.0开源协议兼容性的同时，首次实现了开源模型在agentic coding领域的SOTA性能。其关键突破是通过对比强化学习（Contrastive RL）优化CUDA内核，将大模型工具调用效率提升到生产可用水平。
+
+对AI工程师的启示是：1）开源生态正出现能替代闭源系统的agentic coding方案；2）模型组合（Gemma+Qwen）和架构创新（MoE+Dense混合）可突破单一模型局限；3）GGUF量化格式使20GB级别模型能在消费级设备部署。建议重点关注其工具链集成方案（如Pi框架），这对构建本地化编程助手具有参考价值。</div>
+  
+  <a class="read-original" href="https://simonwillison.net/2026/Jun/29/ornith/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
 </div>
 
 </div>
@@ -105,75 +126,93 @@
 <h2>💻 科技 / 技术</h2>
 
 
-<div class="article" id="article-2">
-  <h3>大麻俱乐部应用泄露百万用户护照信息</h3>
-  <div class="article-meta">
-    <span>📝 daringfireball.net · John Gruber</span>
-    <span>🕐 2026-06-28 17:21</span>
-    <span class="category-tag">科技</span>
-  </div>
-  
-  <div class="detail">文章报道了西班牙大麻俱乐部应用因数据保护不力，导致近百万用户的护照、驾照等身份证件信息暴露在公开网络环境中。安全研究员Sammy Azdoufal使用Claude Code工具发现这些敏感数据无需密码即可访问，泄露内容包括个人照片、电话号码、住址甚至大麻消费记录，涉及多位名人及3万名美国访客。
-
-核心问题是近985,000份身份证件数据完全暴露，且数据关联了用户生物特征、消费偏好等高度敏感信息。安全研究员警告这些数据可能被黑客转售，尤其对不愿公开大麻消费记录的名人群体造成严重隐私风险。
-
-该事件再次验证了Web应用基础安全防护的缺失，从业者必须重新审视数据存储权限管理和最小化收集原则。对于涉及特殊消费场景的应用，更需要部署端到端加密、定期安全审计等防护措施，避免将用户置于不必要的隐私风险中。</div>
-  
-  <a class="read-original" href="https://www.theverge.com/tech/947157/passports-data-breach-cannabis-club-systems-nefos-puffpal?view_token=eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjdjV0Y5TTBuM0ciLCJwIjoiL3RlY2gvOTQ3MTU3L3Bhc3Nwb3J0cy1kYXRhLWJyZWFjaC1jYW5uYWJpcy1jbHViLXN5c3RlbXMtbmVmb3MtcHVmZnBhbCIsImV4cCI6MTc4MzA5NDY0NiwiaWF0IjoxNzgyNjYyNjQ2fQ.7SjX6B8AAGhzsdrtD5asJWBwzQvTDUD31hWte7K1oec" target="_blank">📖 阅读英文原文 →</a>
-</div>
-
-
 <div class="article" id="article-3">
-  <h3>航天飞机I/O处理器电路板解析</h3>
+  <h3>使用AppleScript统计Safari标签页数量</h3>
   <div class="article-meta">
-    <span>📝 righto.com · Ken Shirriff (noreply@blogger.com)</span>
-    <span>🕐 2026-06-28 09:11</span>
+    <span>📝 simonwillison.net</span>
+    <span>🕐 2026-06-29 18:36</span>
     <span class="category-tag">科技</span>
   </div>
-  <div class="tags"><span class="tag">electronics</span><span class="tag">ibm</span><span class="tag">reverse-engineering</span><span class="tag">space</span></div>
-  <div class="detail">这篇文章解析了航天飞机I/O处理器（IOP）的电路板设计和工作原理。IOP作为连接主CPU与航天飞机各系统的关键组件，采用了独特的25个虚拟处理器多线程架构，并配备24个高速网络接口。文章特别展示了两块9×3英寸的电路板："MIA"网络接口板和微码存储板，详细介绍了它们的芯片布局和功能实现方式。
+  <div class="tags"><span class="tag">safari</span><span class="tag">til</span><span class="tag">applescript</span></div>
+  <div class="detail">这篇文章分享了使用AppleScript统计Safari浏览器标签页数量的实用技巧。作者Simon Willison提供了一个简单的命令行脚本，通过osascript调用Safari应用程序接口，获取所有窗口的标签页总数。
 
-核心数据显示，IOP的处理能力甚至超过主CPU（AP-101B），其网络接口卡每块支持4个百万比特/秒的连接，微码存储采用金属熔丝编程技术。值得注意的是，这套系统设计于微处理器普及前，使用了磁芯存储器而非DRAM，展现了早期航天计算机的工程智慧。
+核心内容是通过AppleScript的"tell application 'Safari' to count tabs of every window"命令实现标签页统计。这个技巧属于TIL（Today I Learned）类的小知识，展示了AppleScript在macOS自动化任务中的灵活应用。
 
-对硬件工程师的启示在于：1）在关键系统中，I/O处理器的设计复杂度可能超过主处理器；2）多线程架构在实时系统中的早期应用经验值得借鉴；3）熔丝编程等可靠存储技术在航天级硬件中仍有参考价值。这些设计理念对当今开发高可靠性嵌入式系统仍具指导意义。</div>
+对开发者而言，这展示了如何利用系统原生脚本工具实现简单但实用的功能。类似思路可以扩展到其他自动化场景，比如批量管理浏览器标签、监控资源占用等。这种轻量级解决方案特别适合需要快速实现桌面应用集成的场景。</div>
   
-  <a class="read-original" href="http://www.righto.com/2026/06/space-shuttle-io-processor-boards.html" target="_blank">📖 阅读英文原文 →</a>
+  <a class="read-original" href="https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
 </div>
 
 
 <div class="article" id="article-4">
-  <h3>Lemote Yeeloong笔记本与OpenBSD的探索</h3>
+  <h3>Grok与文档：谁更可信？</h3>
   <div class="article-meta">
-    <span>📝 oldvcr.blogspot.com · ClassicHasClass (noreply@blogger.com)</span>
-    <span>🕐 2026-06-27 20:08</span>
+    <span>📝 johndcook.com · John</span>
+    <span>🕐 2026-06-29 12:12</span>
     <span class="category-tag">科技</span>
   </div>
-  <div class="tags"><span class="tag">bsd</span><span class="tag">linux</span><span class="tag">mips</span></div>
-  <div class="detail">这篇文章记录了作者在Lemote Yeeloong笔记本上探索OpenBSD操作系统的经历。这款笔记本采用中国自主研发的MIPS64架构处理器，以完全开源、无二进制闭源组件为特色，甚至Richard Stallman也使用同款设备。作者详细描述了在这台特殊设备上安装OpenBSD、从SD卡启动以及编译浏览器的技术挑战。
+  <div class="tags"><span class="tag">Computing</span></div>
+  <div class="detail">文章探讨了bc计算工具中Bessel函数j的参数顺序问题。Grok AI和Mac系统man文档对j(n,x)和j(x,n)的参数顺序存在分歧，作者通过实际测试验证Grok答案正确，发现Mac版man文档存在错误，而Linux版文档表述准确。测试还发现函数会对第一个参数n进行截断取整，进一步确认参数顺序。
 
-核心在于这款设备代表了完全自由的计算理念：采用可审计的MIPS架构开源芯片，支持自由操作系统选择。值得注意的是，虽然后期MIPS芯片有英文文档，但早期型号主要只有中文资料，增加了技术探索的复杂性。这种架构选择也体现了中国在自主CPU研发上的尝试。
+核心发现是：1）Grok对bc工具Bessel函数参数顺序的回答比Mac官方文档更准确；2）相同功能在不同系统文档中存在差异（Mac错误 vs Linux正确）；3）实际测试是验证技术细节的金标准，参数截断行为佐证了顺序判断。
 
-对开发者而言，这个案例展示了在非主流架构（MIPS）上移植BSD系统的实践价值，特别是在硬件自主可控日益重要的今天。同时提醒开源社区需要关注不同语言的技术文档壁垒，以及坚持完全开源技术路线带来的特殊技术挑战，这对RISC-V等新兴架构的生态建设具有参考意义。</div>
+这提醒开发者：1）AI工具可能比陈旧文档更可靠，但需保持验证意识；2）跨平台开发时要警惕文档差异，编写测试用例比依赖文档更重要；3）参数截断等边缘行为可作为功能逻辑的验证线索。技术决策应遵循"Trust but verify"原则。</div>
   
-  <a class="read-original" href="https://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html" target="_blank">📖 阅读英文原文 →</a>
+  <a class="read-original" href="https://www.johndcook.com/blog/2026/06/29/who-you-gonna-believe/" target="_blank">📖 阅读英文原文 →</a>
 </div>
 
 
 <div class="article" id="article-5">
-  <h3>Bash大括号扩展解析</h3>
+  <h3>AltaVista搜索引擎的兴衰史</h3>
   <div class="article-meta">
-    <span>📝 johndcook.com · John</span>
-    <span>🕐 2026-06-28 00:33</span>
+    <span>📝 dfarq.homeip.net · Dave Farquhar</span>
+    <span>🕐 2026-06-29 11:00</span>
     <span class="category-tag">科技</span>
   </div>
-  <div class="tags"><span class="tag">Computing</span></div>
-  <div class="detail">这篇文章详细解析了一个使用Bash大括号扩展的复杂单行命令，该命令能生成30个英文单词。作者通过分解{w,t,}h{e{n{,ce{,forth}},re{,in,fore,with{,al}}},ither,at}这个表达式，展示了Bash如何通过嵌套的大括号扩展来枚举所有可能的组合。
+  <div class="tags"><span class="tag">Retro Computing</span></div>
+  <div class="detail">这篇文章回顾了AltaVista搜索引擎的兴衰历程，讲述了它作为90年代首个优秀搜索引擎的崛起，以及最终被Yahoo关闭的命运。文章特别提到AltaVista最初是Digital Equipment Corporation为测试其Alpha CPU性能而创建的"影子IT项目"，却意外成为了划时代的搜索产品。
 
-核心机制在于Bash将大括号内的逗号分隔项视为独立元素进行笛卡尔积运算，包括处理空字符串和嵌套扩展。具体数据表现为：最外层的{w,t,}产生3个前缀，与内层h{...}的10种后缀组合，最终生成3×10=30个有效单词输出。
+核心在于：1）AltaVista在1994-95年解决了当时搜索引擎普遍存在的检索效果差问题；2）其技术基础是强大的Digital Alpha处理器，但公司未能有效宣传这一硬件优势；3）项目原本只是压力测试，却因技术突破意外成就了伟大产品。关键数据点是2013年7月8日被Yahoo正式关闭。
 
-对开发者而言，这个案例展示了Bash脚本中大括号扩展的强大组合能力，特别适合需要批量生成测试用例或文件路径的场景。但嵌套过深会降低可读性，建议复杂逻辑改用Python等语言实现，或在Bash中添加注释说明扩展逻辑。</div>
+对科技从业者的启示：1）技术突破常诞生于非常规项目，企业应宽容"影子IT"；2）硬件优势需要明确的市场定位（对比Intel营销策略）；3）即使技术领先，商业策略失误仍会导致产品失败。这为当今AI时代的GPT等基础技术商业化提供了历史镜鉴。</div>
   
-  <a class="read-original" href="https://www.johndcook.com/blog/2026/06/27/brace-expansion-tree/" target="_blank">📖 阅读英文原文 →</a>
+  <a class="read-original" href="https://dfarq.homeip.net/what-happened-to-altavista/?utm_source=rss&utm_medium=rss&utm_campaign=what-happened-to-altavista" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-6">
+  <h3>标准库解耦与安全漏洞管理</h3>
+  <div class="article-meta">
+    <span>📝 nesbitt.io · Andrew Nesbitt (andrew@ecosyste.ms)</span>
+    <span>🕐 2026-06-29 10:00</span>
+    <span class="category-tag">科技</span>
+  </div>
+  <div class="tags"><span class="tag">package-managers</span><span class="tag">security</span><span class="tag">supply-chain</span></div>
+  <div class="detail">这篇文章探讨了编程语言标准库解耦与安全漏洞管理的关联性，以Haskell的GHC 10.2和Ruby的CVE事件为例，揭示了编译器内置模块与标准库边界模糊带来的安全隐患。
+
+核心发现包括：1）GHC 10.2通过GHC.Essentials模块使所有包隐式依赖base库，打破了"零依赖"的幻想；2）Ruby中REXML漏洞（CVE-2024-35176）因标准库与Gem版本不同步导致修复延迟；3）WEBrick漏洞（CVE-2017-10784）采用版本范围通告模式，与REXML的Gem专属通告形成鲜明对比。
+
+对开发者的启示：1）需重新审视"零依赖"声明的真实边界，编译器更新可能改变依赖规则；2）标准库解耦程度直接影响漏洞响应机制，混合管理模式（如Ruby的Gem化过渡期）会带来SBOM盲区；3）安全团队应建立针对编译器内置模块的特殊监测流程，特别是Rust/Cargo等新兴工具链的标准库解耦趋势下，需预判类似GHC.Essentials的边界变化风险。</div>
+  
+  <a class="read-original" href="https://nesbitt.io/2026/06/29/unbundling-the-standard-library.html" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-7">
+  <h3>WorkOS推出Auth.md协议</h3>
+  <div class="article-meta">
+    <span>📝 daringfireball.net · John Gruber</span>
+    <span>🕐 2026-06-29 01:32</span>
+    <span class="category-tag">科技</span>
+  </div>
+  
+  <div class="detail">文章介绍了WorkOS推出的Auth.md协议，这是一种让应用支持代理(agent)注册用户的新方式。通过托管在域名下的auth.md文件，应用可以声明支持的注册流程(agent verified和user claimed)、作用域等信息，使代理能代表用户完成注册。该协议兼容OAuth标准，提供短期可撤销的访问令牌。
+
+核心在于Auth.md通过标准化文件格式，简化了代理注册流程。两种主要模式：代理认证(agent verified)依赖身份提供商验证，用户确认(user claimed)则通过代码确认。这种方式将注册控制权交还给应用，同时保持灵活性。
+
+对开发者而言，Auth.md提供了一种轻量级方案来支持代理注册场景，无需复杂集成。SaaS和平台服务可以考虑采用该协议来扩展自动化场景，特别是在需要代理代表用户操作的场景下。但需注意平衡自动化便利性和用户控制权。</div>
+  
+  <a class="read-original" href="https://workos.com/auth-md?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026" target="_blank">📖 阅读英文原文 →</a>
 </div>
 
 </div>
@@ -182,37 +221,19 @@
 <h2>📈 商业 / 行业</h2>
 
 
-<div class="article" id="article-6">
-  <h3>Hack Your Summer：暑期项目助力学生</h3>
-  <div class="article-meta">
-    <span>📝 simonwillison.net</span>
-    <span>🕐 2026-06-28 19:26</span>
-    <span class="category-tag">商业</span>
-  </div>
-  <div class="tags"><span class="tag">careers</span></div>
-  <div class="detail">这篇文章介绍了名为"Hack Your Summer"的暑期项目，该项目为本科生、研究生和应届毕业生提供为期4周的密集开发训练营。项目旨在帮助学生在缺乏实习机会的情况下，通过导师指导完成可展示的实际项目，应对当前美国大学面临的"实习危机"。第二期免费课程将于7月13日开始，目前正在招募学员和志愿导师。
-
-核心数据包括：项目周期4周、第二期免费开放、申请截止日期7月8日。关键背景是2026年美国科技公司大幅缩减实习生名额，导致传统实习路径受阻，该项目提供了替代方案。特别值得注意的是项目强调产出"public-facing work"作为求职作品集。
-
-对教育科技从业者的启示在于：1）可开发更多替代传统实习的实践项目模式 2）短期密集型课程设计符合Z世代学习偏好 3）建立作品集导向的评估体系能提升就业竞争力。对企业HR的启发是：可关注这类实践项目的毕业生作为人才池，其作品集比学历更能反映实际能力。</div>
-  
-  <a class="read-original" href="https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
-</div>
-
-
-<div class="article" id="article-7">
-  <h3>超线性回报：理解世界的关键</h3>
+<div class="article" id="article-8">
+  <h3>超线性回报：商业成功的隐藏法则</h3>
   <div class="article-meta">
     <span>📝 paulgraham.com</span>
     <span>🕐 近期</span>
     <span class="category-tag">商业</span>
   </div>
   
-  <div class="detail">这篇文章探讨了"超线性回报"（superlinear returns）这一重要概念，指出在许多领域，优秀表现带来的回报往往呈现指数级增长而非简单的线性关系。
+  <div class="detail">文章探讨了商业世界中普遍存在的"超线性回报"现象，指出卓越表现带来的回报往往呈现非线性放大效应，这种现象不仅存在于商业领域，也体现在知名度、权力、军事胜利等多个维度。
 
-核心观点包括：1）商业、声誉、权力等领域普遍存在"赢家通吃"现象；2）超线性回报主要源于指数增长和临界阈值两种机制；3）初创公司若能实现指数增长，其价值将远超普通企业；Y Combinator建议创始人专注增长。
+核心观点认为超线性回报源于两个底层机制：指数级增长和临界阈值效应。典型案例包括细菌培养（指数增长）和创业公司发展（达到增长临界点后价值跃升），YC孵化器正是通过帮助初创企业突破增长临界点来创造巨大价值。
 
-对创业者的启示是：要识别具有指数增长潜力的领域，突破关键阈值；在创业初期就应建立可规模化的增长模型，而非满足于线性进步；理解"超线性回报"规律有助于制定更有效的商业策略。</div>
+对创业者而言，关键启示在于：1）要选择具备指数增长潜力的领域 2）必须突破行业关键阈值 3）在早期阶段就要建立正向反馈循环。理解超线性回报法则能帮助从业者更有效地分配资源，把有限精力集中在能产生复合效应的关键节点上。</div>
   
   <a class="read-original" href="http://www.paulgraham.com/superlinear.html" target="_blank">📖 阅读英文原文 →</a>
 </div>
