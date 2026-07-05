@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karpathy RSS 实时精选 - 2026年07月05日</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.8; }
+  .container { max-width: 860px; margin: 0 auto; padding: 30px 20px; }
+  h1 { font-size: 1.6em; margin-bottom: 6px; color: #fff; }
+  .site-desc { color: #666; font-size: 0.85em; margin-bottom: 20px; }
+  .meta { color: #888; font-size: 0.88em; margin-bottom: 30px; border-bottom: 1px solid #222; padding-bottom: 15px; }
+  .category { margin-bottom: 35px; }
+  .category h2 { font-size: 1.2em; color: #4fc3f7; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 1px solid #1a1a1a; }
+  .article { background: #111; border-radius: 12px; padding: 22px 24px; margin-bottom: 16px; border: 1px solid #1e1e1e; transition: border-color 0.2s, transform 0.1s; }
+  .article:hover { border-color: #333; transform: translateY(-1px); }
+  .article h3 { font-size: 1.08em; margin-bottom: 8px; color: #fff; line-height: 1.5; }
+  .article-meta { font-size: 0.8em; color: #666; margin-bottom: 12px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+  .article-meta .category-tag { background: #1a3a2a; color: #4ade80; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; }
+  .detail { font-size: 0.93em; color: #bbb; line-height: 1.9; margin-bottom: 14px; white-space: pre-line; }
+  .read-original { display: inline-block; font-size: 0.85em; color: #4fc3f7; text-decoration: none; padding: 6px 16px; border: 1px solid #2a3a4a; border-radius: 6px; transition: all 0.2s; }
+  .read-original:hover { background: #1a2a3a; border-color: #4fc3f7; }
+  .tags { margin-bottom: 10px; }
+  .tag { display: inline-block; background: #1a1a1a; color: #4fc3f7; font-size: 0.72em; padding: 2px 8px; border-radius: 4px; margin-right: 5px; margin-bottom: 4px; }
+  .footer { text-align: center; color: #444; font-size: 0.78em; margin-top: 50px; padding-top: 20px; border-top: 1px solid #1a1a1a; }
+  .footer a { color: #4fc3f7; text-decoration: none; }
+  .toc { background: #111; border-radius: 12px; padding: 20px 24px; margin-bottom: 30px; border: 1px solid #1e1e1e; }
+  .toc h3 { font-size: 0.95em; color: #888; margin-bottom: 10px; }
+  .toc ul { list-style: none; }
+  .toc li { font-size: 0.88em; padding: 4px 0; border-bottom: 1px solid #1a1a1a; }
+  .toc li:last-child { border-bottom: none; }
+  .toc a { color: #ccc; text-decoration: none; }
+  .toc a:hover { color: #4fc3f7; }
+  .toc .cat-label { color: #4fc3f7; font-size: 0.8em; margin-left: 8px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Karpathy RSS 实时精选</h1>
+<div class="site-desc">基于 Andrej Karpathy 推荐的 92 个顶级科技博客，AI 生成中文解读</div>
+<div class="meta">📅 2026年07月05日  |  共 4 篇来自 2 个博客  |  由 AI 自动生成中文解读</div>
+
+<div class="toc">
+<h3>📑 目录</h3>
+<ul>
+
+
+
+
+<li><a href="#article-1">1. sqlite-utils 4.0rc2发布，主要由Claude Fable编写</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+<li><a href="#article-2">2. SQLite-Utils 4.0rc2发布</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+<li><a href="#article-3">3. 如何获取新创意</a><span class="cat-label">💻 科技 / 技术</span></li>
+
+
+
+
+<li><a href="#article-4">4. 超线性回报：商业成功的隐藏法则</a><span class="cat-label">📈 商业 / 行业</span></li>
+
+
+</ul>
+</div>
+
+
+
+<div class="category">
+<h2>💻 科技 / 技术</h2>
+
+
+<div class="article" id="article-1">
+  <h3>sqlite-utils 4.0rc2发布，主要由Claude Fable编写</h3>
+  <div class="article-meta">
+    <span>📝 simonwillison.net</span>
+    <span>🕐 2026-07-05 01:00</span>
+    <span class="category-tag">科技</span>
+  </div>
+  <div class="tags"><span class="tag">projects</span><span class="tag">sqlite</span><span class="tag">sqlite-utils</span><span class="tag">annotated-release-notes</span><span class="tag">anthropic</span></div>
+  <div class="detail">文章主要介绍了sqlite-utils 4.0rc2版本的发布过程，特别强调了由Claude Fable参与编写的情况。开发者Simon Willison在即将失去Claude Fable订阅服务前，利用这个AI工具进行最终代码审查，发现了包括delete_where()方法存在严重数据丢失问题在内的多个关键bug。
+
+核心发现是Claude Fable以149.25美元的成本，成功识别出5个"发布阻碍级别"的问题，其中最严重的是delete_where()方法的事务处理缺陷会导致后续所有操作无法提交，造成数据丢失。这个案例展示了AI代码审查工具在发现复杂逻辑漏洞方面的价值。
+
+对开发者的启示在于：1）AI辅助代码审查可以高效发现人工可能遗漏的严重问题；2）在重要版本发布前应该采用多种审查手段；3）合理利用订阅服务的最后期限也能创造额外价值。同时这个案例也展示了AI工具在复杂系统行为分析方面的独特优势。</div>
+  
+  <a class="read-original" href="https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-2">
+  <h3>SQLite-Utils 4.0rc2发布</h3>
+  <div class="article-meta">
+    <span>📝 simonwillison.net</span>
+    <span>🕐 2026-07-05 00:47</span>
+    <span class="category-tag">科技</span>
+  </div>
+  
+  <div class="detail">这篇文章介绍了Python工具库SQLite-Utils 4.0rc2版本的发布情况，该工具主要用于操作SQLite数据库，由Claude Fable开发完成。  
+
+核心内容包括：SQLite-Utils 4.0rc2是一个Python命令行工具和库，开发者花费约149.25美元通过Claude Fable完成主要开发工作。该版本属于正式版发布前的候选版本，功能进一步完善。  
+
+对开发者的启示是：可以关注SQLite-Utils的新特性，评估其简化SQLite操作的效率提升；同时，利用AI辅助开发（如Claude）完成基础代码编写，能够显著降低开发成本，这一模式值得借鉴。</div>
+  
+  <a class="read-original" href="https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+
+<div class="article" id="article-3">
+  <h3>如何获取新创意</h3>
+  <div class="article-meta">
+    <span>📝 paulgraham.com</span>
+    <span>🕐 近期</span>
+    <span class="category-tag">科技</span>
+  </div>
+  
+  <div class="detail">这篇文章探讨了获取新创意的核心方法——发现异常现象。作者Paul Graham指出，日常生活中的异常现象（如脱口秀素材）和知识前沿的空白点都是创意的源泉。他特别强调知识边界具有分形特征，深入某个领域时会发现大量未探索的空白，这些看似明显的空白点往往蕴含着重大创新机会。
+
+核心观点是：1）异常现象（anomalies）是创意的催化剂 2）知识前沿（frontiers of knowledge）存在分形结构（fractal）的空白 3）最明显的空白往往被忽视，这正是突破性创新的机会。作者用GPT生成回答与自身观点的差异，佐证了人类洞察力的不可替代性。
+
+对从业者的启示在于：1）要培养发现行业异常现象的敏感度 2）深度学习某个领域才能发现真正的知识缺口 3）明显的问题可能隐藏着重大创新机会。科技从业者可借鉴这种"分形思维"，在AI、区块链等技术前沿寻找未被解决的"明显问题"。</div>
+  
+  <a class="read-original" href="http://www.paulgraham.com/getideas.html" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+</div>
+
+<div class="category">
+<h2>📈 商业 / 行业</h2>
+
+
+<div class="article" id="article-4">
+  <h3>超线性回报：商业成功的隐藏法则</h3>
+  <div class="article-meta">
+    <span>📝 paulgraham.com</span>
+    <span>🕐 近期</span>
+    <span class="category-tag">商业</span>
+  </div>
+  
+  <div class="detail">这篇文章探讨了商业世界中普遍存在的"超线性回报"现象，即投入与回报不成正比的指数级增长规律。作者指出这种非线性的回报模式不仅存在于商业领域，也体现在名声、权力、知识积累等多个维度，这是世界的本质特征而非资本主义制度的产物。文章将超线性回报归因于两个核心机制：指数增长和临界阈值效应。
+
+核心观点揭示：1）商业竞争中微小的优势差距会导致市场回报的悬殊分化；2）初创企业能否实现指数增长直接决定其生存空间；3）细菌培养的案例生动展示了指数增长带来的结果差异。关键数据在于：产品性能仅落后竞争对手50%的企业，可能获得0%市场份额而非预期的50%。  
+
+对创业者的启示：1）必须将寻找指数增长机会作为战略重点，YC孵化器强调的增长优先策略获得理论支撑；2）需要建立"赢家通吃"的竞争思维，在关键性能指标上追求绝对优势而非相对改进；3) 识别业务中可能产生临界阈值效应的关键要素进行重点突破。</div>
+  
+  <a class="read-original" href="http://www.paulgraham.com/superlinear.html" target="_blank">📖 阅读英文原文 →</a>
+</div>
+
+</div>
+
+
+<div class="footer">
+  由 <a href="https://github.com/" target="_blank">Karpathy RSS Daily Digest</a> 自动生成<br>
+  数据来源: Andrej Karpathy 推荐的 92 个顶级科技博客
+</div>
+</div>
+</body>
+</html>
